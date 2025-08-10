@@ -1,7 +1,7 @@
-import React from "react";
-import { assets } from "../assets/assets";
+import React from "react"
+import { assets } from "../assets/assets"
 
-const Navbar =() => {
+const Navbar = () => {
   return (
     <div>
       <div>
