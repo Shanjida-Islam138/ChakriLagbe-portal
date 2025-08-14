@@ -1,9 +1,15 @@
 import logo from "./logo.png";
 import search_icon from "./search_icon.svg";
 import company_icon from "./company_icon.svg";
-import microsoft_logo from "./microsoft_logo.svg";
-import walmart_logo from "./walmart_logo.svg";
-import accenture_logo from "./accenture_logo.png";
+import bjit_logo from "./bjit_logo.svg";
+import datasoft_logo from "./datasoft_logo.png";
+import ti_logo from "./ti_logo.png";
+import bracbank_sm_logo from "./bracbank_sm_logo.png";
+import dutchbangla_logo from "./dutchbangla_logo.png";
+import aci_logo from "./aci_logo.png";
+import banglalink_logo from "./banglalink_logo.svg";
+import sci_logo from "./sci_logo.svg";
+
 import profile_img from "./profile_img.png";
 import app_main_img from "./app_main_img.png";
 import cross_icon from './cross_icon.svg';
@@ -42,9 +48,14 @@ export const assets = {
     company_icon,
     resume_not_selected,
     resume_selected,
-    microsoft_logo,
-    walmart_logo,
-    accenture_logo,
+    bjit_logo,
+    datasoft_logo,
+    ti_logo,
+    bracbank_sm_logo,
+    dutchbangla_logo,
+    aci_logo,
+    banglalink_logo,
+    sci_logo,
     app_main_img,
     play_store,
     app_store,
@@ -73,71 +84,88 @@ export const assets = {
 }
 
 export const JobCategories = [
-    "Programming",
-    "Data Science",
-    "Designing",
-    "Networking",
-    "Management",
-    "Marketing",
+    "Programming & Software Development",
+    "Data Science & Analytics",
+    "UI/UX & Graphic Designing",
+    "Networking & System Administration",
+    "Project & Operations Management",
+    "Sales & Marketing",
     "Cybersecurity",
+    "Accounting & Finance",
+    "Customer Support & Call Center",
+    "Content Writing & Editing",
+    "Human Resources (HR)",
+    "Teaching & Education",
+    "Healthcare & Medical",
+    "Engineering & Architecture",
+    "Garments/Textile & RMG",
+    "NGO/Development",
 ]
 
 export const JobLocations = [
-    "Bangalore",
-    "Washington",
-    "Hyderabad",
-    "Mumbai",
-    "California",
-    "Chennai",
-    "New York"
+    "Dhaka",
+    "Chattogram",
+    "Sylhet",
+    "Rajshahi",
+    "Khulna",
+    "Barishal",
+    "Rangpur",
+    "Cumilla",
+    "Gazipur",
+    "Narayanganj",
+    "Mymensingh",
+    "Cox's Bazar",
+    "Jessore",
+    "Remote (Bangladesh)",
+    "Overseas Opportunities"
 ]
 
 // Sample data for Manage Jobs Page
 export const manageJobsData = [
-    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Bangalore", applicants: 20 },
-    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "San Francisco", applicants: 15 },
-    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "London", applicants: 2 },
-    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Dubai", applicants: 25 }
+    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Dhaka", applicants: 20 },
+    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "Chattogram", applicants: 15 },
+    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "Sylhet", applicants: 8 },
+    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Khulna", applicants: 12 }
 ];
 
 // Sample data for Profile Page
 export const jobsApplied = [
     {
-        company: 'Amazon',
+        company: 'bKash',
         title: 'Full Stack Developer',
-        location: 'Bangalore',
+        location: 'Dhaka',
         date: '22 Aug, 2024',
         status: 'Pending',
         logo: company_icon,
     },
     {
-        company: 'Meta',
+        company: 'Grameenphone',
         title: 'Data Scientist',
-        location: 'San Francisco',
+        location: 'Chattogram',
         date: '22 Aug, 2024',
         status: 'Rejected',
         logo: company_icon,
     },
     {
-        company: 'Google',
+        company: 'PRAN–RFL Group',
         title: 'Marketing Manager',
-        location: 'London',
+        location: 'Sylhet',
         date: '25 Sep, 2024',
         status: 'Accepted',
         logo: company_icon,
     },
     {
-        company: 'Qualcomm',
+        company: 'Square Pharmaceuticals',
         title: 'UI/UX Designer',
-        location: 'Dubai',
+        location: 'Khulna',
         date: '15 Oct, 2024',
         status: 'Pending',
         logo: company_icon,
     },
     {
-        company: 'Microsoft',
-        title: 'Full Stack Developer',
-        location: 'Hyderabad',
+        company: 'BRAC Bank',
+        title: 'Project Manager',
+        location: 'Rajshahi',
         date: '25 Sep, 2024',
         status: 'Accepted',
         logo: company_icon,
