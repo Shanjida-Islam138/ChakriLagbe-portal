@@ -1,5 +1,19 @@
 import logo from "./logo.png";
 import search_icon from "./search_icon.svg";
+import bkash_logo from "./bkash_logo.svg";
+import grameenphone_logo from "./grameenphone_logo.png";
+import pthao from "./pthao.svg";
+import robi_logo from "./robi_logo.png";
+import daraz from "./daraz.webp";
+import bk_logo from "./bk_logo.png";
+import shohoz_logo from "./shohoz_logo.png";
+import brac_logo from "./brac_logo.png";
+import therap_bd from "./therap_bd.png";
+import sheba_logo from "./sheba_logo.png";
+import square_logo from "./square_logo.png";
+import tech from "./tech.jpeg";
+import nextgen from "./nextgen.webp";
+
 import company_icon from "./company_icon.svg";
 import bjit_logo from "./bjit_logo.svg";
 import datasoft_logo from "./datasoft_logo.png";
@@ -46,6 +60,19 @@ export const assets = {
     cross_icon,
     upload_area,
     company_icon,
+    bkash_logo,
+    grameenphone_logo,
+    pthao,
+    robi_logo,
+    daraz,
+    bk_logo,
+    shohoz_logo,
+    brac_logo,
+    therap_bd,
+    sheba_logo,
+    tech,
+    square_logo,
+    nextgen,
     resume_not_selected,
     resume_selected,
     bjit_logo,
@@ -116,8 +143,8 @@ export const JobLocations = [
     "Mymensingh",
     "Cox's Bazar",
     "Jessore",
-    "Remote (Bangladesh)",
-    "Overseas Opportunities"
+    "Remote (Bangladesh)"
+    
 ]
 
 // Sample data for Manage Jobs Page
@@ -136,7 +163,7 @@ export const jobsApplied = [
         location: 'Dhaka',
         date: '22 Aug, 2024',
         status: 'Pending',
-        logo: company_icon,
+        logo: bkash_logo,
     },
     {
         company: 'Grameenphone',
@@ -144,7 +171,7 @@ export const jobsApplied = [
         location: 'Chattogram',
         date: '22 Aug, 2024',
         status: 'Rejected',
-        logo: company_icon,
+        logo: grameenphone_logo,
     },
     {
         company: 'PRAN–RFL Group',
@@ -192,7 +219,7 @@ export const jobsData = [
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "bKash Limited",
             "email": "hr@bkash.com",
-            "image": company_icon,
+            "image": bkash_logo,
         },
         description: `
         <p>bKash is looking for a passionate Full Stack Developer to join our growing technology team. You’ll be working with both the frontend and backend, helping us build products that reach millions of users across Bangladesh.</p>
@@ -228,7 +255,7 @@ export const jobsData = [
         "_id": "6710aa35ca9fda8f1bf360d1",
         "name": "Grameenphone Ltd.",
         "email": "career@grameenphone.com",
-        "image": company_icon,
+        "image": grameenphone_logo ,
     },
     description: `
         <p>Grameenphone is looking for a Data Scientist who loves working with data and turning numbers into real business impact. If you enjoy solving problems, finding hidden patterns, and building models that can actually shape decisions, this role is for you. You’ll be part of a growing analytics team that directly supports product, marketing, and operations.</p>
@@ -264,7 +291,7 @@ export const jobsData = [
         "_id": "6710bb45ca9fda8f1bf361e2",
         "name": "Pathao Ltd.",
         "email": "career@pathao.com",
-        "image": company_icon,
+        "image": pthao,
     },
     description: `
         <p>Pathao is looking for a creative and detail-oriented UI/UX Designer to join our product team. In this role, you will help design digital experiences that are simple, engaging, and user-friendly. If you are passionate about design and love solving user problems with creative solutions, this position is perfect for you.</p>
@@ -299,27 +326,27 @@ export const jobsData = [
         "_id": "6710cc56ca9fda8f1bf362f3",
         "name": "Robi Axiata Ltd.",
         "email": "career@robi.com",
-        "image": company_icon,
+        "image": robi_logo,
     },
     description: `
-        <p>Robi Axiata is looking for a skilled DevOps Engineer to help maintain and improve our deployment pipelines and cloud infrastructure. You will ensure smooth operations between development and IT teams, automate processes, and help scale our systems efficiently.</p>
+         <p>Robi Axiata is looking for a motivated DevOps Engineer to strengthen our deployment pipelines and cloud infrastructure. In this role, you will bridge the gap between development and IT operations, improve automation, and ensure systems run efficiently at scale.</p>
         
         <h2><strong>What You’ll Be Doing</strong></h2>
         <ul>
-            <li>Automate deployment workflows using CI/CD tools to streamline development.</li>
-            <li>Manage cloud infrastructure and ensure reliability, security, and scalability.</li>
-            <li>Monitor systems performance and troubleshoot issues proactively.</li>
-            <li>Collaborate with developers to integrate new features and maintain stability.</li>
-            <li>Implement best practices for security, backup, and disaster recovery.</li>
+            <li>Automate build, test, and deployment workflows using modern CI/CD tools.</li>
+            <li>Manage and monitor cloud infrastructure with a focus on reliability and scalability.</li>
+            <li>Proactively identify and resolve performance or availability issues.</li>
+            <li>Work with developers to integrate new features without disrupting stability.</li>
+            <li>Implement security best practices, backups, and disaster recovery plans.</li>
         </ul>
         
         <h2><strong>What We’re Looking For</strong></h2>
         <ul>
-            <li>Experience with CI/CD tools like Jenkins or GitLab CI.</li>
-            <li>Strong knowledge of cloud platforms (AWS, Azure, or GCP).</li>
-            <li>Proficiency in scripting languages such as Bash or Python.</li>
-            <li>Familiarity with containerization technologies (Docker, Kubernetes).</li>
-            <li>Good problem-solving skills and ability to work in a team.</li>
+            <li>Hands-on experience with CI/CD platforms (Jenkins, GitLab CI, or similar).</li>
+            <li>Proficiency in at least one major cloud platform (AWS, Azure, GCP).</li>
+            <li>Scripting knowledge in Bash, Python, or equivalent.</li>
+            <li>Understanding of containerization (Docker) and orchestration (Kubernetes).</li>
+            <li>Problem-solving mindset with strong collaboration skills.</li>
         </ul>`,
     salary: 55000,
     date: 1729681667114,
@@ -335,7 +362,7 @@ export const jobsData = [
         "_id": "6710dd67ca9fda8f1bf363f4",
         "name": "Daraz Bangladesh",
         "email": "career@daraz.com",
-        "image": company_icon,
+        "image": daraz,
     },
     description: `
         <p>Daraz Bangladesh is seeking a talented Software Engineer to join our tech team. You will develop and maintain web and mobile applications that improve user experience and drive business growth. Collaborating with product managers and other engineers, your work will have a direct impact on millions of users across Bangladesh.</p>
@@ -370,7 +397,7 @@ export const jobsData = [
         "_id": "6710ee78ca9fda8f1bf364f5",
         "name": "Banglalink Digital Communications Ltd.",
         "email": "career@banglalink.com",
-        "image": company_icon,
+        "image": bk_logo,
     },
     description: `
         <p>Banglalink is seeking a skilled Network Engineer to maintain and improve our network infrastructure. You will ensure stable connectivity across all systems and help implement secure and efficient network solutions. Your work will directly support smooth operations for our customers and internal teams.</p>
@@ -396,566 +423,607 @@ export const jobsData = [
     date: 1729681667114,
     category: "Networking & System Administration",
 },
+{
+    _id: '7',
+    title: "Project Manager",
+    location: "Dhaka",
+    level: "Mid Level",
+    companyId: {
+        "_id": "6710ff89ca9fda8f1bf365f6",
+        "name": "BRAC Bank Ltd.",
+        "email": "career@bracbank.com",
+        "image": bracbank_sm_logo,
+    },
+    description: `
+        <p>BRAC Bank is looking for a Project Manager to lead key initiatives and ensure successful project delivery. You will coordinate with cross-functional teams, manage timelines, and ensure that projects align with organizational goals. Your leadership and communication skills will help motivate teams and deliver high-quality results.</p>
+        
+        <h2><strong>What You’ll Be Doing</strong></h2>
+        <ul>
+            <li>Define project goals, scope, and deliverables in collaboration with stakeholders.</li>
+            <li>Create and maintain detailed project plans and schedules.</li>
+            <li>Monitor project progress, identify risks, and implement corrective actions.</li>
+            <li>Coordinate communication between teams and manage stakeholder expectations.</li>
+            <li>Conduct project reviews and document lessons learned for continuous improvement.</li>
+        </ul>
+        
+        <h2><strong>What We’re Looking For</strong></h2>
+        <ul>
+            <li>Proven experience as a Project Manager, ideally in a tech or banking environment.</li>
+            <li>Familiarity with project management tools like JIRA or Trello.</li>
+            <li>Strong leadership, planning, and organizational skills.</li>
+            <li>Excellent communication and interpersonal abilities.</li>
+            <li>Project management certifications (PMP, Scrum Master) are a plus.</li>
+        </ul>`,
+    salary: 65000,
+    date: 1729681667114,
+    category: "Project & Operations Management",
+},
+{
+    _id: '8',
+    title: "Mobile App Developer",
+    location: "Chattogram",
+    level: "Mid Level",
+    companyId: {
+        "_id": "67111b23ca9fda8f1bf367f8",
+        "name": "Shohoz Ltd.",
+        "email": "career@shohoz.com",
+        "image": shohoz_logo,
+    },
+    description: `
+        <p>Shohoz Bangladesh is seeking a skilled Mobile App Developer to design and maintain Android and iOS applications. You’ll work closely with product and design teams to create smooth, engaging experiences for our users. Your contributions will directly affect millions of daily users across Bangladesh.</p>
+        
+        <h2><strong>What You’ll Be Doing</strong></h2>
+        <ul>
+            <li>Develop mobile applications for Android and iOS using Kotlin and Swift.</li>
+            <li>Collaborate with designers and product managers to implement features.</li>
+            <li>Ensure apps are responsive, fast, and reliable for large user bases.</li>
+            <li>Debug, test, and optimize applications for performance and usability.</li>
+            <li>Participate in code reviews and follow best coding practices.</li>
+        </ul>
+        
+        <h2><strong>What We’re Looking For</strong></h2>
+        <ul>
+            <li>Proficiency in Kotlin (Android) or Swift (iOS).</li>
+            <li>Experience with RESTful APIs and third-party SDKs.</li>
+            <li>Understanding of mobile UI/UX best practices.</li>
+            <li>Strong problem-solving skills and attention to detail.</li>
+            <li>Familiarity with Git or other version control systems.</li>
+        </ul>`,
+    salary: 72000,
+    date: 1729681667114,
+    category: "Programming & Software Development",
+},
 
     {
-        _id: '7',
-        title: "Project Manager",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Lead projects as a Project Manager ensuring timely delivery and alignment with organizational goals. You will oversee project planning, execution, and monitoring, collaborating with various teams to ensure that all aspects of each project are delivered successfully. Your strong leadership skills will be key to motivating team members and fostering a positive work environment.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Define project scope, objectives, and deliverables in collaboration with stakeholders.</li>
-            <li>Develop detailed project plans and schedules to guide execution.</li>
-            <li>Monitor project progress and adjust plans as necessary to meet deadlines.</li>
-            <li>Facilitate communication between teams and manage stakeholder expectations.</li>
-            <li>Conduct project retrospectives to identify lessons learned and areas for improvement.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proven experience as a Project Manager in a technology-focused environment.</li>
-            <li>Familiarity with project management software (e.g., JIRA, Trello).</li>
-            <li>Strong leadership and organizational skills.</li>
-            <li>Excellent communication and interpersonal abilities.</li>
-            <li>Certification in project management (e.g., PMP, Scrum Master) is preferred.</li>
-        </ol>`,
-        salary: 60000,
-        date: 1729681667114,
-        category: "Management",
+    _id: '9',
+    title: "Cloud Architect",
+    location: "Sylhet",
+    level: "Senior Level",
+    companyId: {
+        "_id": "67123d56ca9fda8f1bf369a0",
+        "name": "Robi Axiata Ltd.",
+        "email": "career@robi.com",
+        "image": robi_logo,
     },
-    {
-        _id: '8',
-        title: "Mobile App Developer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join our team as a Mobile App Developer to create engaging mobile applications for iOS and Android platforms. You will be responsible for the full app development lifecycle, from concept and design to deployment and maintenance. Your creativity and technical skills will help us deliver high-quality applications that enhance user experience.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Design and build advanced mobile applications for iOS and Android.</li>
-            <li>Collaborate with cross-functional teams to define, design, and ship new features.</li>
-            <li>Continuously discover, evaluate, and implement new technologies to maximize development efficiency.</li>
-            <li>Ensure performance, quality, and responsiveness of applications.</li>
-            <li>Conduct code reviews and maintain code quality standards.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proficiency in Swift for iOS or Kotlin for Android development.</li>
-            <li>Experience with RESTful APIs and third-party libraries.</li>
-            <li>Strong understanding of mobile app design principles and guidelines.</li>
-            <li>Excellent problem-solving skills and attention to detail.</li>
-            <li>Familiarity with version control systems (e.g., Git).</li>
-        </ol>`,
-        salary: 112000,
-        date: 1729681667114,
-        category: "Programming",
-    },
-    {
-        _id: '9',
-        title: "Cloud Architect",
-        location: "Hyderabad",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Design cloud solutions as a Cloud Architect, helping to transform our infrastructure and services. You will work closely with various teams to understand their requirements and translate them into secure, scalable, and efficient cloud-based solutions. Your expertise will guide our cloud strategy and ensure that we leverage cloud technologies to their fullest potential.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Design and implement cloud solutions that align with business objectives.</li>
-            <li>Provide guidance on best practices for cloud architecture and deployment.</li>
-            <li>Collaborate with DevOps teams to enhance cloud infrastructure and security.</li>
-            <li>Monitor cloud systems for performance and cost-effectiveness.</li>
+    description: `
+        <p>Robi Bangladesh is looking for a Cloud Architect to design and manage scalable cloud infrastructure. You will collaborate with engineering and DevOps teams to create secure, high-performing cloud solutions that support our growing services. Your expertise will help define our cloud strategy and optimize technology usage.</p>
+        
+        <h2><strong>What You’ll Be Doing</strong></h2>
+        <ul>
+            <li>Design and implement cloud solutions aligned with business needs.</li>
+            <li>Advise on best practices for cloud architecture, deployment, and security.</li>
+            <li>Collaborate with DevOps and engineering teams to enhance cloud infrastructure.</li>
+            <li>Monitor cloud system performance and optimize costs.</li>
             <li>Stay updated on emerging cloud technologies and industry trends.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Strong knowledge of cloud service providers (e.g., AWS, Azure, GCP).</li>
+        </ul>
+        
+        <h2><strong>What We’re Looking For</strong></h2>
+        <ul>
+            <li>Strong knowledge of AWS, Azure, or GCP.</li>
             <li>Experience with cloud architecture patterns and best practices.</li>
-            <li>Familiarity with containerization and orchestration technologies (e.g., Docker, Kubernetes).</li>
+            <li>Familiarity with containerization and orchestration tools (Docker, Kubernetes).</li>
             <li>Excellent analytical and problem-solving skills.</li>
-            <li>Relevant certifications (e.g., AWS Certified Solutions Architect) are preferred.</li>
-        </ol>`,
-        salary: 96000,
-        date: 1729681667114,
-        category: "Programming",
+            <li>Relevant certifications (AWS Solutions Architect or equivalent) are a plus.</li>
+        </ul>`,
+    salary: 98000,
+    date: 1729681667114,
+    category: "Programming & Software Development",
+},
+{
+    _id: '10',
+    title: "Technical Writer",
+    location: "Khulna",
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "67145f78ca9fda8f1bf370c2",
+        "name": "BRAC IT Services",
+        "email": "career@bracit.com",
+        "image": brac_logo,
     },
-    {
-        _id: '10',
-        title: "Technical Writer",
-        location: "Mumbai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join us as a Technical Writer to create user-friendly documentation that supports our products and services. You will work closely with engineers and product managers to gather information and produce clear, concise, and accurate documentation. Your role is essential in ensuring that our users can easily understand and utilize our offerings.</p>
+    description: `
+        <p>BRAC IT Services is looking for a Technical Writer to produce clear, concise, and user-friendly documentation for our software and services. You will collaborate with developers, product managers, and support teams to ensure our documentation helps users understand and efficiently use our products.</p>
+        
         <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Create and maintain user manuals, API documentation, and other technical materials.</li>
-            <li>Collaborate with development teams to gather and clarify technical information.</li>
-            <li>Conduct reviews of existing documentation to ensure accuracy and relevance.</li>
-            <li>Ensure that documentation is up-to-date and consistent with product updates.</li>
-            <li>Utilize feedback from users to enhance the clarity and usability of documentation.</li>
-        </ol>
+        <ul>
+            <li>Create and maintain user manuals, API documentation, and online help guides.</li>
+            <li>Work closely with engineering and product teams to gather accurate information.</li>
+            <li>Review and update existing documentation for accuracy and clarity.</li>
+            <li>Ensure documentation is consistent with product updates and company standards.</li>
+            <li>Incorporate user feedback to improve usability of technical content.</li>
+        </ul>
+        
         <h2><strong>Skills Required</strong></h2>
-        <ol>
+        <ul>
             <li>Proficiency in technical writing and documentation tools (e.g., MadCap Flare, Adobe FrameMaker).</li>
-            <li>Strong understanding of technology and the ability to convey complex information clearly.</li>
-            <li>Excellent research and analytical skills.</li>
-            <li>Strong communication and collaboration abilities.</li>
-            <li>Attention to detail and a commitment to quality.</li>
-        </ol>`,
-        salary: 72000,
-        date: 1729681667114,
-        category: "Marketing",
-    },
+            <li>Strong understanding of software and technology concepts.</li>
+            <li>Excellent research, analytical, and communication skills.</li>
+            <li>Ability to collaborate effectively with cross-functional teams.</li>
+            <li>Attention to detail and commitment to quality documentation.</li>
+        </ul>`,
+    salary: 75000,
+    date: 1729681667114,
+    category: "Content Writing & Documentation",
+},
+
     {
-        _id: '11',
-        title: "Cybersecurity Analyst",
-        location: "Mumbai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Protect our systems as a Cybersecurity Analyst. In this role, you will monitor security systems, analyze potential threats, and implement protective measures to safeguard our information and assets. Your expertise will help us stay ahead of evolving security challenges and maintain a secure environment for our users and stakeholders.</p>
+    _id: '11',
+    title: "Cybersecurity Analyst",
+    location: "Gazipur",
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "6714ab12ca9fda8f1bf371a3",
+        "name": "DataSoft Systems Bangladesh Ltd.",
+        "email": "career@datasoft-bd.com",
+        "image": datasoft_logo,
+    },
+    description: `
+        <p>DataSoft Systems Bangladesh is seeking a Cybersecurity Analyst to help safeguard our systems and data. You will monitor security events, identify potential threats, and implement measures to protect our digital infrastructure. Your work will ensure that company operations remain secure and resilient against evolving cyber risks.</p>
+
         <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Monitor and analyze security events to identify potential threats.</li>
-            <li>Conduct risk assessments and vulnerability analyses to enhance security posture.</li>
-            <li>Implement security measures and controls to mitigate risks.</li>
-            <li>Collaborate with IT teams to respond to security incidents.</li>
-            <li>Stay informed about the latest cybersecurity trends and threats.</li>
-        </ol>
+        <ul>
+            <li>Monitor networks and systems for security breaches or suspicious activities.</li>
+            <li>Perform risk assessments and vulnerability analyses to enhance security posture.</li>
+            <li>Implement and maintain security policies, protocols, and controls.</li>
+            <li>Collaborate with IT teams to respond effectively to security incidents.</li>
+            <li>Stay updated on the latest cybersecurity threats and technologies.</li>
+        </ul>
+
         <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Strong knowledge of security protocols, standards, and tools.</li>
-            <li>Experience with SIEM tools and incident response processes.</li>
-            <li>Understanding of network protocols and security technologies.</li>
-            <li>Excellent problem-solving and analytical skills.</li>
+        <ul>
+            <li>Good understanding of security protocols, tools, and standards.</li>
+            <li>Experience with SIEM systems and incident response workflows.</li>
+            <li>Knowledge of network protocols and security technologies.</li>
+            <li>Strong analytical, problem-solving, and communication skills.</li>
             <li>Relevant certifications (e.g., CISSP, CEH) are a plus.</li>
-        </ol>`,
-        salary: 62000,
-        date: 1729681667114,
-        category: "Cybersecurity",
-    },
+        </ul>`,
+    salary: 65000,
+    date: 1729681667114,
+    category: "Cybersecurity",
+},
+
     {
-        _id: '12',
-        title: "Business Analyst",
-        location: "Mumbai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join us as a Business Analyst to optimize our processes and improve overall efficiency. You will work closely with stakeholders to identify business needs and gather requirements for new projects. Your analytical skills will help drive decision-making and ensure that solutions align with business objectives.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Gather and analyze business requirements from stakeholders.</li>
-            <li>Develop detailed documentation of business processes and workflows.</li>
-            <li>Collaborate with IT and development teams to translate requirements into solutions.</li>
-            <li>Conduct testing and validation of new systems and processes.</li>
-            <li>Provide ongoing support and training for users.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Strong analytical skills and attention to detail.</li>
-            <li>Proficiency in business analysis tools (e.g., Visio, JIRA).</li>
-            <li>Excellent communication and interpersonal abilities.</li>
-            <li>Experience with data analysis and reporting.</li>
-            <li>Familiarity with Agile methodologies is a plus.</li>
-        </ol>`,
-        salary: 68000,
-        date: 1729681667114,
-        category: "Management",
+    _id: '12',
+    title: "Business Analyst",
+    location: "Chattogram",
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "6715bc34ca9fda8f1bf372b5",
+        "name": "Therap BD Ltd.",
+        "email": "career@therapbd.com",
+        "image": therap_bd,
     },
-    {
-        _id: '13',
-        title: "Marketing Specialist",
-        location: "Chennai",
-        level: "Beginner Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Support our marketing efforts as a Marketing Specialist. In this role, you will assist with campaign execution, content creation, and social media management. Your creativity and enthusiasm will help promote our brand and engage our audience across various channels.</p>
+    description: `
+        <p>Therap BD Ltd. is looking for a Business Analyst to help optimize our processes and improve efficiency across departments. You will work closely with stakeholders to understand business needs, gather requirements, and ensure that solutions are aligned with organizational goals.</p>
+
         <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Assist in the development and execution of marketing campaigns.</li>
-            <li>Create engaging content for social media platforms and newsletters.</li>
-            <li>Conduct market research to identify trends and opportunities.</li>
-            <li>Monitor and analyze campaign performance metrics.</li>
-            <li>Collaborate with team members to brainstorm new marketing ideas.</li>
-        </ol>
+        <ul>
+            <li>Gather and analyze business requirements from various stakeholders.</li>
+            <li>Document workflows and business processes in detail.</li>
+            <li>Work with IT and development teams to translate requirements into actionable solutions.</li>
+            <li>Assist in testing and validating new systems or process improvements.</li>
+            <li>Provide ongoing support, reporting, and training to ensure smooth adoption.</li>
+        </ul>
+
         <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Basic understanding of digital marketing principles.</li>
-            <li>Strong written and verbal communication skills.</li>
-            <li>Proficiency in social media platforms and marketing tools.</li>
-            <li>Creative thinking and problem-solving abilities.</li>
-            <li>Willingness to learn and adapt in a fast-paced environment.</li>
-        </ol>`,
-        salary: 77000,
-        date: 1729681667114,
-        category: "Marketing",
+        <ul>
+            <li>Strong analytical skills with keen attention to detail.</li>
+            <li>Proficiency in business analysis and documentation tools (e.g., JIRA, Visio).</li>
+            <li>Excellent communication and collaboration abilities.</li>
+            <li>Experience in data analysis and reporting is an advantage.</li>
+            <li>Familiarity with Agile methodologies is preferred.</li>
+        </ul>`,
+    salary: 70000,
+    date: 1729681667114,
+    category: "Management",
+},
+
+    {
+    _id: '13',
+    title: "Marketing Specialist",
+    location: "Rajshahi",
+    level: "Beginner Level",
+    companyId: {
+        "_id": "6722cd45ca9fda8f1bf362b2",
+        "name": "Sheba.xyz",
+        "email": "hr@sheba.xyz",
+        "image":sheba_logo,
     },
-    {
-        _id: '14',
-        title: "Data Scientist",
-        location: "California",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join our innovative team as a Data Scientist, where you will analyze complex data sets to drive strategic decision-making. You will leverage your statistical and programming skills to uncover insights and develop predictive models, contributing to the overall success of our organization.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Analyze large datasets to identify trends, patterns, and anomalies.</li>
-            <li>Develop and implement predictive models and algorithms.</li>
-            <li>Collaborate with cross-functional teams to understand business needs and provide data-driven solutions.</li>
-            <li>Visualize data findings and present insights to stakeholders.</li>
-            <li>Stay current with industry trends and best practices in data science.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proficiency in programming languages such as Python or R.</li>
-            <li>Strong knowledge of statistical methods and machine learning techniques.</li>
-            <li>Experience with data visualization tools (e.g., Tableau, Power BI).</li>
-            <li>Excellent problem-solving skills and attention to detail.</li>
-            <li>Ability to communicate complex concepts to non-technical audiences.</li>
-        </ol>`,
-        salary: 65000,
-        date: 1729681667114,
-        category: "Data Science",
+    description: `
+    <p>Join Sheba.xyz as a Marketing Specialist to help drive our marketing campaigns and engage with customers. You will assist in content creation, campaign execution, and social media management. Your creativity and energy will help expand our brand presence across Bangladesh.</p>
+    
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Support the development and execution of marketing campaigns.</li>
+        <li>Create content for social media, newsletters, and promotions.</li>
+        <li>Conduct research to identify market trends and growth opportunities.</li>
+        <li>Monitor campaign performance and provide insights for improvement.</li>
+        <li>Collaborate with team members to generate new marketing ideas.</li>
+    </ol>
+    
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Basic knowledge of digital marketing principles.</li>
+        <li>Strong written and verbal communication skills.</li>
+        <li>Familiarity with social media platforms and marketing tools.</li>
+        <li>Creative thinking and problem-solving abilities.</li>
+        <li>Adaptable and eager to learn in a fast-paced environment.</li>
+    </ol>`,
+    salary: 77000,
+    date: 1729681667114,
+    category: "Marketing",
+},
+{
+    _id: '14',
+    title: "Data Scientist",
+    location: "Khulna",
+    level: "Senior Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359b9",
+        "name": "Square Pharmaceuticals Ltd.",
+        "email": "career@squaregroup.com",
+        "image": square_logo,
     },
+    description: `
+    <p>Square Pharmaceuticals is hiring a Data Scientist to transform business operations through advanced analytics and predictive modeling. You will work with large-scale healthcare and business datasets to extract insights that drive innovation and efficiency.</p>
+    
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Analyze structured and unstructured datasets to find patterns and opportunities.</li>
+        <li>Develop and deploy predictive models to optimize business outcomes.</li>
+        <li>Collaborate with R&D, finance, and IT teams to build data-driven solutions.</li>
+        <li>Create visual reports and dashboards for management decision-making.</li>
+        <li>Research and apply the latest data science methods and tools.</li>
+    </ol>
+    
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Strong expertise in Python, R, SQL, and statistical modeling.</li>
+        <li>Experience with big data frameworks (Spark, Hadoop) is a plus.</li>
+        <li>Knowledge of machine learning libraries (scikit-learn, TensorFlow, PyTorch).</li>
+        <li>Strong business acumen with excellent problem-solving skills.</li>
+        <li>Ability to clearly communicate insights to non-technical stakeholders.</li>
+    </ol>`,
+    salary: 92000,
+    date: 1729681667114,
+    category: "Data Science",
+},
+
     {
-        _id: '15',
-        title: "UX/UI Designer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>We are seeking a talented UX/UI Designer to enhance our user experience across digital platforms. You will collaborate with product managers and developers to create intuitive and engaging interfaces that meet user needs and improve overall satisfaction.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Conduct user research and usability testing to inform design decisions.</li>
-            <li>Create wireframes, prototypes, and high-fidelity mockups for web and mobile applications.</li>
-            <li>Work closely with development teams to ensure designs are implemented accurately.</li>
-            <li>Iterate on designs based on user feedback and analytics.</li>
-            <li>Stay updated on design trends and best practices in UX/UI.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proficiency in design tools such as Sketch, Figma, or Adobe XD.</li>
-            <li>Strong understanding of user-centered design principles.</li>
-            <li>Experience with responsive and adaptive design techniques.</li>
-            <li>Excellent communication skills and ability to work collaboratively.</li>
-            <li>A portfolio showcasing relevant design projects is required.</li>
-        </ol>`,
-        salary: 64000,
-        date: 1729681667114,
-        category: "Design",
+    _id: '15',
+    title: "UX/UI Designer",
+    location: "Khulna",
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d1",
+        "name": "Tech Innovators Ltd",
+        "email": "careers@techinnovators.com",
+        "image": tech,
     },
+    description: `
+    <p>Tech Innovators Ltd is looking for a creative UX/UI Designer to craft engaging user experiences across our digital platforms. You will work with product managers, engineers, and stakeholders to design intuitive interfaces that enhance user satisfaction and business growth.</p>
+
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Conduct user research, surveys, and usability testing to identify pain points.</li>
+        <li>Design wireframes, prototypes, and polished interfaces for mobile and web apps.</li>
+        <li>Collaborate with developers to ensure accurate implementation of design systems.</li>
+        <li>Continuously refine designs based on analytics and user feedback.</li>
+        <li>Stay informed about modern UX/UI trends and apply them effectively.</li>
+    </ol>
+
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Hands-on experience with Figma, Adobe XD, or similar design tools.</li>
+        <li>Solid understanding of user-centered design principles.</li>
+        <li>Knowledge of responsive, adaptive, and mobile-first design strategies.</li>
+        <li>Excellent teamwork, communication, and presentation skills.</li>
+        <li>A strong design portfolio highlighting mobile and web projects.</li>
+    </ol>`,
+    salary: 64000,
+    date: 1729681667114,
+    category: "UI/UX & Graphic Designing",
+},
+
     {
-        _id: '16',
-        title: "DevOps Engineer",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>As a DevOps Engineer, you will play a crucial role in enhancing our software development and deployment processes. You will work with development and operations teams to automate workflows, improve system reliability, and ensure seamless integration and delivery of applications.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Design and implement CI/CD pipelines to automate application deployment.</li>
-            <li>Monitor system performance and troubleshoot issues proactively.</li>
-            <li>Collaborate with development teams to improve software development lifecycle.</li>
-            <li>Implement infrastructure as code using tools like Terraform or Ansible.</li>
-            <li>Ensure security best practices are followed in the deployment process.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Strong experience with cloud platforms (AWS, Azure, or GCP).</li>
-            <li>Proficiency in scripting languages such as Bash or Python.</li>
-            <li>Familiarity with containerization tools like Docker and orchestration platforms like Kubernetes.</li>
-            <li>Excellent troubleshooting and problem-solving skills.</li>
-            <li>Relevant certifications (e.g., AWS Certified DevOps Engineer) are a plus.</li>
-        </ol>`,
-        salary: 74000,
-        date: 1729681667114,
-        category: "Programming",
+    _id: '16',
+    title: "DevOps Engineer",
+    location: "Remote (Bangladesh)",
+    level: "Senior Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d2",
+        "name": "NextGen Solutions",
+        "email": "careers@nextgensolutions.com",
+        "image": nextgen,
     },
+    description: `
+    <p>As a DevOps Engineer at NextGen Solutions, you will play a crucial role in enhancing our software development and deployment processes. You will work with development and operations teams to automate workflows, improve system reliability, and ensure seamless integration and delivery of applications.</p>
+    
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Design and implement CI/CD pipelines to automate application deployment.</li>
+        <li>Monitor system performance and troubleshoot issues proactively.</li>
+        <li>Collaborate with development teams to improve software development lifecycle.</li>
+        <li>Implement infrastructure as code using tools like Terraform or Ansible.</li>
+        <li>Ensure security best practices are followed in the deployment process.</li>
+    </ol>
+    
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Strong experience with cloud platforms (AWS, Azure, or GCP).</li>
+        <li>Proficiency in scripting languages such as Bash or Python.</li>
+        <li>Familiarity with containerization tools like Docker and orchestration platforms like Kubernetes.</li>
+        <li>Excellent troubleshooting and problem-solving skills.</li>
+        <li>Relevant certifications (e.g., AWS Certified DevOps Engineer) are a plus.</li>
+    </ol>`,
+    salary: 74000,
+    date: 1729681667114,
+    category: "Programming & Software Development",
+},
+
     {
-        _id: '17',
-        title: "Sales Manager",
-        location: "New York",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join our team as a Sales Manager, where you will lead our sales efforts to drive growth and increase market share. You will develop sales strategies, manage client relationships, and mentor your sales team to achieve performance goals.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Develop and implement strategic sales plans to achieve company objectives.</li>
-            <li>Manage and lead a team of sales representatives to meet and exceed sales targets.</li>
-            <li>Build and maintain strong relationships with key clients and stakeholders.</li>
-            <li>Analyze sales data and market trends to identify opportunities for growth.</li>
-            <li>Provide training and development opportunities for the sales team.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proven experience in sales management and team leadership.</li>
-            <li>Strong negotiation and communication skills.</li>
-            <li>Ability to analyze data and make informed decisions.</li>
-            <li>Experience with CRM software (e.g., Salesforce).</li>
-            <li>A results-oriented mindset with a focus on meeting targets.</li>
-        </ol>`,
-        salary: 59000,
-        date: 1729681667114,
-        category: "Marketing",
+    _id: '17',
+    title: "Sales Manager",
+    location: "Rangpur", 
+    level: "Senior Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d4",
+        "name": "Bright Future Ltd", 
+        "email": "careers@brightfuture.com",
+      
     },
+    description: `
+    <p>Join our team as a Sales Manager at Bright Future Ltd, where you will lead our sales efforts to drive growth and increase market share. You will develop sales strategies, manage client relationships, and mentor your sales team to achieve performance goals.</p>
+
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Develop and implement strategic sales plans to achieve company objectives.</li>
+        <li>Manage and lead a team of sales representatives to meet and exceed sales targets.</li>
+        <li>Build and maintain strong relationships with key clients and stakeholders.</li>
+        <li>Analyze sales data and market trends to identify opportunities for growth.</li>
+        <li>Provide training and development opportunities for the sales team.</li>
+    </ol>
+
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Proven experience in sales management and team leadership.</li>
+        <li>Strong negotiation and communication skills.</li>
+        <li>Ability to analyze data and make informed decisions.</li>
+        <li>Experience with CRM software (e.g., Salesforce).</li>
+        <li>A results-oriented mindset with a focus on meeting targets.</li>
+    </ol>`,
+    salary: 59000,
+    date: 1729681667114,
+    category: "Sales & Marketing",
+},
+
     {
-        _id: '18',
-        title: "Human Resources Specialist",
-        location: "Washington",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>As a Human Resources Specialist, you will support various HR functions, including recruitment, employee relations, and compliance. You will play a vital role in fostering a positive workplace culture and ensuring that our HR practices align with organizational goals.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Assist with the recruitment process, including job postings and candidate screenings.</li>
-            <li>Support employee onboarding and orientation programs.</li>
-            <li>Manage employee records and ensure compliance with HR policies.</li>
-            <li>Provide guidance to employees on HR-related inquiries.</li>
-            <li>Help organize employee training and development initiatives.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Strong understanding of HR principles and practices.</li>
-            <li>Excellent communication and interpersonal skills.</li>
-            <li>Proficiency in HR software (e.g., HRIS, ATS).</li>
-            <li>Ability to maintain confidentiality and handle sensitive information.</li>
-            <li>Attention to detail and strong organizational skills.</li>
-        </ol>`,
-        salary: 89000,
-        date: 1729681667114,
-        category: "Management",
+    _id: '18',
+    title: "Human Resources Specialist",
+    location: "Narayanganj", // Unique Bangladesh location not used yet
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d5",
+        "name": "Global HR Solutions", // Unique company
+        "email": "careers@globalhr.com",
+      
     },
-    {
-        _id: '19',
-        title: "Content Marketing Manager",
-        location: "Mumbai",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>We are looking for a Content Marketing Manager to lead our content strategy and execution. In this role, you will develop compelling content that engages our audience and drives brand awareness. You will collaborate with various teams to ensure consistent messaging across all platforms.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Develop and implement a content marketing strategy aligned with business objectives.</li>
-            <li>Create and oversee the production of high-quality content for blogs, social media, and other channels.</li>
-            <li>Analyze content performance and optimize strategies based on data-driven insights.</li>
-            <li>Collaborate with designers and other stakeholders to ensure content aligns with visual branding.</li>
-            <li>Manage the content calendar and ensure timely delivery of content.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proven experience in content marketing and strategy development.</li>
-            <li>Strong writing and editing skills with a keen eye for detail.</li>
-            <li>Familiarity with SEO best practices and content management systems.</li>
-            <li>Excellent analytical skills and ability to interpret data.</li>
-            <li>Strong leadership and project management skills.</li>
-        </ol>`,
-        salary: 99000,
-        date: 1729681667114,
-        category: "Marketing",
+    description: `
+    <p>As a Human Resources Specialist at Global HR Solutions, you will support various HR functions, including recruitment, employee relations, and compliance. You will play a vital role in fostering a positive workplace culture and ensuring that our HR practices align with organizational goals.</p>
+
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Assist with the recruitment process, including job postings and candidate screenings.</li>
+        <li>Support employee onboarding and orientation programs.</li>
+        <li>Manage employee records and ensure compliance with HR policies.</li>
+        <li>Provide guidance to employees on HR-related inquiries.</li>
+        <li>Help organize employee training and development initiatives.</li>
+    </ol>
+
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Strong understanding of HR principles and practices.</li>
+        <li>Excellent communication and interpersonal skills.</li>
+        <li>Proficiency in HR software (e.g., HRIS, ATS).</li>
+        <li>Ability to maintain confidentiality and handle sensitive information.</li>
+        <li>Attention to detail and strong organizational skills.</li>
+    </ol>`,
+    salary: 89000,
+    date: 1729681667114,
+    category: "Human Resources (HR)",
+},
+
+   {
+    _id: '19',
+    title: "Content Marketing Manager",
+    location: "Cox's Bazar", 
+    level: "Senior Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d6",
+        "name": "Save the Children Bangladesh", 
+        "email": "careers@scb.org.bd",
+   
     },
-    {
-        _id: '20',
-        title: "Graphic Designer",
-        location: "Chennai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join our creative team as a Graphic Designer, where you will be responsible for creating visually appealing graphics and layouts that enhance our brand identity. You will collaborate with marketing and product teams to develop creative solutions for various projects.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Design graphics for digital and print media, including social media, websites, and marketing materials.</li>
-            <li>Collaborate with cross-functional teams to understand project requirements and objectives.</li>
-            <li>Stay updated on design trends and tools to continually enhance skills and creativity.</li>
-            <li>Prepare and present design concepts to stakeholders for feedback and approval.</li>
-            <li>Ensure all designs align with brand guidelines and project specifications.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Proficiency in design software such as Adobe Creative Suite (Photoshop, Illustrator, InDesign).</li>
-            <li>Strong understanding of design principles and typography.</li>
-            <li>Ability to work on multiple projects simultaneously and meet deadlines.</li>
-            <li>Excellent communication and collaboration skills.</li>
-            <li>A portfolio showcasing relevant design work is required.</li>
-        </ol>`,
-        salary: 91000,
-        date: 1729681667114,
-        category: "Design",
+    description: `
+    <p>We are looking for a Content Marketing Manager at Save the Children Bangladesh to lead our content strategy and execution. In this role, you will develop compelling content that engages our audience and drives awareness about our programs. You will collaborate with various teams to ensure consistent messaging across all platforms.</p>
+
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Develop and implement a content marketing strategy aligned with NGO objectives.</li>
+        <li>Create and oversee the production of high-quality content for blogs, social media, and other channels.</li>
+        <li>Analyze content performance and optimize strategies based on data-driven insights.</li>
+        <li>Collaborate with designers and other stakeholders to ensure content aligns with visual branding.</li>
+        <li>Manage the content calendar and ensure timely delivery of content.</li>
+    </ol>
+
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Proven experience in content marketing and strategy development.</li>
+        <li>Strong writing and editing skills with a keen eye for detail.</li>
+        <li>Familiarity with SEO best practices and content management systems.</li>
+        <li>Excellent analytical skills and ability to interpret data.</li>
+        <li>Strong leadership and project management skills.</li>
+    </ol>`,
+    salary: 99000,
+    date: 1729681667114,
+    category: "NGO/Development",
+},
+{
+    _id: '20',
+    title: "Graphic Designer",
+    location: "Mymensingh",
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d7",
+        "name": "Creative Minds Ltd", 
+        "email": "careers@creativeminds.com",
+      
     },
+    description: `
+    <p>Join our creative team at Creative Minds Ltd as a Graphic Designer, where you will be responsible for creating visually appealing graphics and layouts that enhance our brand identity. You will collaborate with marketing and product teams to develop creative solutions for various projects.</p>
+
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Design graphics for digital and print media, including social media, websites, and marketing materials.</li>
+        <li>Collaborate with cross-functional teams to understand project requirements and objectives.</li>
+        <li>Stay updated on design trends and tools to continually enhance skills and creativity.</li>
+        <li>Prepare and present design concepts to stakeholders for feedback and approval.</li>
+        <li>Ensure all designs align with brand guidelines and project specifications.</li>
+    </ol>
+
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Proficiency in design software such as Adobe Creative Suite (Photoshop, Illustrator, InDesign).</li>
+        <li>Strong understanding of design principles and typography.</li>
+        <li>Ability to work on multiple projects simultaneously and meet deadlines.</li>
+        <li>Excellent communication and collaboration skills.</li>
+        <li>A portfolio showcasing relevant design work is required.</li>
+    </ol>`,
+    salary: 91000,
+    date: 1729681667114,
+    category: "UI/UX & Graphic Designing",
+},
+
     {
-        _id: '21',
-        title: "Software Tester",
-        location: "Chennai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>As a Software Tester, you will play a critical role in ensuring the quality and reliability of our software applications. You will design test cases, execute tests, and collaborate with development teams to identify and resolve defects before product release.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Develop and execute test plans and test cases based on software requirements.</li>
-            <li>Identify, document, and track defects using bug tracking tools.</li>
-            <li>Collaborate with developers to resolve issues and improve software quality.</li>
-            <li>Conduct regression testing to ensure existing functionality remains intact.</li>
-            <li>Participate in team meetings to provide insights on product quality and testing status.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Experience with manual and automated testing techniques.</li>
-            <li>Familiarity with testing tools (e.g., Selenium, JUnit).</li>
-            <li>Strong analytical and problem-solving skills.</li>
-            <li>Excellent attention to detail and ability to work under tight deadlines.</li>
-            <li>Good communication skills to articulate testing outcomes and challenges.</li>
-        </ol>`,
-        salary: 123000,
-        date: 1729681667114,
-        category: "Programming",
+    _id: '21',
+    title: "Software Tester",
+    location: "Rangpur", 
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359d8",
+        "name": "Tech Solutions Ltd", 
+        "email": "careers@techsolutions.com",
+   
     },
-    {
-        _id: '22',
-        title: "Network Security Engineer",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>We are seeking a Network Security Engineer to protect our organization's IT infrastructure. You will design and implement security measures to safeguard systems from unauthorized access and ensure compliance with security policies.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Develop and implement security protocols for network systems.</li>
-            <li>Monitor network traffic for suspicious activity and respond to incidents.</li>
-            <li>Conduct vulnerability assessments and penetration testing.</li>
-            <li>Collaborate with IT teams to resolve security issues and enhance network security.</li>
-            <li>Stay updated on the latest security trends and technologies.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Strong knowledge of networking protocols and security technologies.</li>
-            <li>Experience with firewalls, VPNs, IDS/IPS, and security information systems.</li>
-            <li>Relevant certifications (e.g., CISSP, CISM, CEH) are preferred.</li>
-            <li>Excellent analytical and troubleshooting skills.</li>
-            <li>Strong communication skills to work with technical and non-technical teams.</li>
-        </ol>`,
-        salary: 87000,
-        date: 1729681667114,
-        category: "Cybersecurity",
+    description: `
+    <p>As a Software Tester at Tech Solutions Ltd, you will play a critical role in ensuring the quality and reliability of our software applications. You will design test cases, execute tests, and collaborate with development teams to identify and resolve defects before product release.</p>
+
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Develop and execute test plans and test cases based on software requirements.</li>
+        <li>Identify, document, and track defects using bug tracking tools.</li>
+        <li>Collaborate with developers to resolve issues and improve software quality.</li>
+        <li>Conduct regression testing to ensure existing functionality remains intact.</li>
+        <li>Participate in team meetings to provide insights on product quality and testing status.</li>
+    </ol>
+
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Experience with manual and automated testing techniques.</li>
+        <li>Familiarity with testing tools (e.g., Selenium, JUnit).</li>
+        <li>Strong analytical and problem-solving skills.</li>
+        <li>Excellent attention to detail and ability to work under tight deadlines.</li>
+        <li>Good communication skills to articulate testing outcomes and challenges.</li>
+    </ol>`,
+    salary: 123000,
+    date: 1729681667114,
+    category: "Programming & Software Development",
+},
+
+   {
+    _id: '22',
+    title: "Network Security Engineer",
+    location: "Cumilla",
+    level: "Senior Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359e6",
+        name: "SecureNet Ltd",
+        email: "careers@securenet.com",
+       
     },
-    {
-        _id: '23',
-        title: "Cloud Engineer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
-        <p>Join our technology team as a Cloud Engineer, where you will be responsible for designing and managing our cloud infrastructure. You will collaborate with development and operations teams to ensure the efficient deployment and scaling of applications.</p>
-        <h2><strong>Key Responsibilities</strong></h2>
-        <ol>
-            <li>Design and implement cloud solutions using AWS, Azure, or Google Cloud Platform.</li>
-            <li>Monitor and optimize cloud resources for performance and cost efficiency.</li>
-            <li>Work with DevOps teams to automate deployment processes.</li>
-            <li>Ensure cloud security and compliance with industry standards.</li>
-            <li>Provide technical support and troubleshooting for cloud-based applications.</li>
-        </ol>
-        <h2><strong>Skills Required</strong></h2>
-        <ol>
-            <li>Experience with cloud platforms and services.</li>
-            <li>Proficiency in scripting languages such as Python or Bash.</li>
-            <li>Strong understanding of networking concepts and security.</li>
-            <li>Experience with container orchestration tools like Kubernetes.</li>
-            <li>Good problem-solving skills and attention to detail.</li>
-        </ol>`,
-        salary: 102000,
-        date: 1729681667114,
-        category: "Programming",
-    }
+    description: `
+    <p>SecureNet Ltd is seeking a Network Security Engineer to protect our IT infrastructure and ensure compliance with security policies.</p>
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Develop and implement security protocols for network systems.</li>
+        <li>Monitor network traffic and respond to incidents.</li>
+        <li>Conduct vulnerability assessments and penetration testing.</li>
+        <li>Collaborate with IT teams to resolve security issues.</li>
+        <li>Stay updated on security trends and technologies.</li>
+    </ol>
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Strong knowledge of networking protocols and security technologies.</li>
+        <li>Experience with firewalls, VPNs, IDS/IPS, and security tools.</li>
+        <li>Certifications like CISSP, CISM, CEH preferred.</li>
+        <li>Excellent analytical and troubleshooting skills.</li>
+        <li>Strong communication skills.</li>
+    </ol>`,
+    salary: 87000,
+    date: 1729681667114,
+    category: "Cybersecurity",
+},
+   {
+    _id: '23',
+    title: "Cloud Engineer",
+    location: "Narayanganj",
+    level: "Intermediate Level",
+    companyId: {
+        "_id": "670e4d25ca9fda8f1bf359e7",
+        name: "SkyTech BD",
+        email: "careers@skytechbd.com",
+    
+    },
+    description: `
+    <p>Join SkyTech BD as a Cloud Engineer to design and manage our cloud infrastructure. Collaborate with development and operations teams to ensure efficient deployment and scaling of applications.</p>
+    <h2><strong>Key Responsibilities</strong></h2>
+    <ol>
+        <li>Design and implement cloud solutions using AWS, Azure, or Google Cloud Platform.</li>
+        <li>Monitor and optimize cloud resources for performance and cost efficiency.</li>
+        <li>Work with DevOps teams to automate deployment processes.</li>
+        <li>Ensure cloud security and compliance with industry standards.</li>
+        <li>Provide technical support and troubleshooting for cloud-based applications.</li>
+    </ol>
+    <h2><strong>Skills Required</strong></h2>
+    <ol>
+        <li>Experience with cloud platforms and services.</li>
+        <li>Proficiency in scripting languages such as Python or Bash.</li>
+        <li>Strong understanding of networking concepts and security.</li>
+        <li>Experience with container orchestration tools like Kubernetes.</li>
+        <li>Good problem-solving skills and attention to detail.</li>
+    </ol>`,
+    salary: 102000,
+    date: 1729681667114,
+    category: "Programming & Software Development",
+}
+
 ];
