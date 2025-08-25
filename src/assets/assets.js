@@ -13,6 +13,7 @@ import sheba_logo from "./sheba_logo.png";
 import square_logo from "./square_logo.png";
 import tech from "./tech.jpeg";
 import nextgen from "./nextgen.webp";
+import bg_image from "./bg_image.png";
 
 import company_icon from "./company_icon.svg";
 import bjit_logo from "./bjit_logo.svg";
@@ -71,6 +72,7 @@ export const assets = {
     therap_bd,
     sheba_logo,
     tech,
+    bg_image,
     square_logo,
     nextgen,
     resume_not_selected,
