@@ -1,6 +1,10 @@
 import React, { useContext, useRef } from "react"
 import { assets } from "../assets/assets"
 import bg_image from "../assets/bg_image.png"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 
 import { AppContext } from "../context/AppContext"
 
@@ -76,18 +80,31 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="border border-gray-300 shadow-md mx-2 mt-5 p-6 rounded-md flex">
-        <div className="flex justify-center gap-10 lg:gap-16 flex-wrap">
-          <p className="font-medium">Trusted by</p>
-          <img className="h-6" src={assets.bjit_logo} alt="" />
-          <img className="h-6" src={assets.datasoft_logo} alt="" />
-          <img className="h-6" src={assets.ti_logo} alt="" />
-          <img className="h-6" src={assets.bracbank_sm_logo} alt="" />
-          <img className="h-6" src={assets.dutchbangla_logo} alt="" />
-          <img className="h-6" src={assets.aci_logo} alt="" />
-          <img className="h-6" src={assets.sci_logo} alt="" />
-        </div>
-      </div>
+<div className="border border-gray-300 shadow-md mx-2 mt-5 p-6 rounded-md">
+  <div className="flex items-center gap-5">
+    <p className="font-medium whitespace-nowrap">Trusted by</p>
+
+    <div className="w-full">
+      <Slider
+        infinite={true}
+        slidesToShow={4}   // ekshathe koyta logo dekhabe
+        slidesToScroll={1}
+        autoplay={true}
+        autoplaySpeed={2000}
+        arrows={false}
+        rtl={true}   // 👉 left theke right e cholar jonno eta add holo
+      >
+        <div><img className="h-6" src={assets.bjit_logo} alt="" /></div>
+        <div><img className="h-6" src={assets.datasoft_logo} alt="" /></div>
+        <div><img className="h-6" src={assets.ti_logo} alt="" /></div>
+        <div><img className="h-6" src={assets.bracbank_sm_logo} alt="" /></div>
+        <div><img className="h-6" src={assets.dutchbangla_logo} alt="" /></div>
+        <div><img className="h-6" src={assets.aci_logo} alt="" /></div>
+        <div><img className="h-6" src={assets.sci_logo} alt="" /></div>
+      </Slider>
+    </div>
+  </div>
+</div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ const JobCard =({ job }) => {
 
   const navigate = useNavigate()
   return (
-    <div className="p-6 shadow rounded">
+    <div className="p-6 shadow rounded flex flex-col h-full">
       <div className="flex justify-between items-center">
          <img className="h-8" src={job.companyId.image} alt={job.companyId.name} />
       </div>
@@ -16,7 +16,7 @@ const JobCard =({ job }) => {
         <span className="bg-red-50 border border-red-200 px-4 py-1.5 rounded">{job.level}</span>
       </div>
       <p className="text-gray-500 text-sm mt-4" dangerouslySetInnerHTML={{__html:job.description.slice(0,150)}}></p>
-      <div className="mt-4  flex gap-4 text-sm">
+      <div className="mt-4 flex gap-4 text-sm mt-auto">
         <button onClick={()=> {navigate(`/apply-job/${job._id}`); scrollTo(0,0)}} className="bg-[#00A88E] hover:bg-[#0F0F0F] text-white px-4 py-2 rounded">Apply now</button>
         <button onClick={()=> {navigate(`/apply-job/${job._id}`); scrollTo(0,0)}} className="text-gray-500 border border-gray-500 rounded px-4 py-2">Learn more</button>
       </div>
