@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { assets } from "../assets/assets";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import { Link, useNavigate } from "react-router-dom";
+import App from "../App";
+import { AppContext } from "../context/AppContext";
 
 
 const Navbar = () => {
@@ -9,6 +11,8 @@ const Navbar = () => {
   const { user } = useUser();
 
   const navigate = useNavigate()
+
+  const {setShowRecruiterLogin} =useContext(AppContext)
 
   return (
     <div
@@ -30,7 +34,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="flex gap-4 max-sm:text-xs">
-            <button className="text-white-600">
+            <button onClick={e=> setShowRecruiterLogin(true)} className="text-white-600">
               Recruiter Login
             </button>
             <button
