@@ -87,12 +87,12 @@ const Hero = () => {
     <div className="w-full">
       <Slider
         infinite={true}
-        slidesToShow={4}   // ekshathe koyta logo dekhabe
+        slidesToShow={4}   
         slidesToScroll={1}
         autoplay={true}
         autoplaySpeed={2000}
         arrows={false}
-        rtl={true}   // 👉 left theke right e cholar jonno eta add holo
+        rtl={true}   
       >
         <div><img className="h-6" src={assets.bjit_logo} alt="" /></div>
         <div><img className="h-6" src={assets.datasoft_logo} alt="" /></div>

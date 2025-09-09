@@ -25,10 +25,10 @@ const RecruiterLogin =() => {
         {state==='Sign Up' && isTextDataSubmitted ? <></>
         : <>
 
-          <div>
+          <div className="flex items-center gap-4 my-10">
             <label htmlFor="image">
-              <img src={assets.upload_area} alt="" />
-              <input type="file" id='image' hidden />
+              <img className="w-16 rounded-full" src={image ? URL.createObjectURL(image): assets.upload_area} alt="" />
+              <input onChange={e=>setImage(e.target.files[0])} type="file" id='image' hidden />
             </label>
             <p>Upload Company <br /> logo</p>
           </div>
