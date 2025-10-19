@@ -15,7 +15,7 @@ export const registerCompany = async (req, res) => {
   }
 
   try {
-    const companyExists = await Company.findOne({ email });
+    const companyExists = await Company.findOne({ email }); // comment for github
 
     if (companyExists) {
       return res.json({ success: false, message: "Company already registered" });
