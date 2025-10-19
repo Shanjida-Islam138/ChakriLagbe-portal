@@ -1,9 +1,31 @@
-import React from "react"
+import React, { useEffect, useState,useContext } from "react"
 import { NavLink, Outlet, useNavigate } from "react-router-dom"
 import { assets } from "../assets/assets"
+import { AppContext } from "../context/AppContext"
 
 const Dashboard = () => {
   const navigate = useNavigate()
+
+  const { companyData, setCompanyData, setCompanyToken } = useContext(AppContext)
+
+  // Function to logout company
+
+  const logout = () => {
+
+       setCompanyToken(null)
+       localStorage.removeItem('companyToken')
+       setCompanyData(null)
+       navigate('/')
+  }
+
+   useEffect(() =>{
+    if (companyData) {
+      navigate('/dashboard/manage-jobs')
+      
+    }
+
+
+   },[companyData])
 
   return (
     <div className="min-h-screen">
@@ -19,20 +41,26 @@ const Dashboard = () => {
             alt="logo"
           />
 
-          <div className="flex items-center gap-3">
+            {companyData && (
+               <div className="flex items-center gap-3">
+          
             <p className="max-sm:hidden text-gray-700">
-              Welcome back, ChakriLagbe! <span className="text-sm text-gray-500">{new Date().toLocaleDateString()}</span>
+              Welcome, {companyData.name} <span className="text-sm text-gray-500">{new Date().toLocaleDateString()}</span>
             </p>
 
             <div className="relative group">
-              <img className="w-8 border rounded-full" src={assets.company_icon} alt="company" />
+              <img className="w-8 border rounded-full" src={companyData.image} alt="company" />
               <div className="absolute hidden group-hover:block top-0 right-0 z-10 text-black rounded pt-12">
                 <ul className="list-none m-0 p-2 bg-white rounded-md border text-sm">
-                  <li className="py-1 px-2 cursor-pointer pr-10">Logout</li>
+                  <li onClick ={logout}className="py-1 px-2 cursor-pointer pr-10">Logout</li>
                 </ul>
               </div>
             </div>
           </div>
+
+            )}
+
+         
         </div>
       </div>
 
